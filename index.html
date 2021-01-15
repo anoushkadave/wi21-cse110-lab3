@@ -43,9 +43,9 @@
             <p>The following sections describe my experiences in more detail:</p>
             <nav>
                 <ul>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#programming-skills">Programming Skills</a></li>
-                    <li><a href="#languages">Languages</a></li>
+                    <a href="#education"><button>Education</button></a>
+                    <a href="#programming-skills"><button>Programming Skills</button></a>
+                    <a href="#languages"><button>Languages</button></a>
                 </ul>
             </nav>
             <hr>
@@ -173,28 +173,32 @@
                 <h2>Programming Skills</h2>
 
                 <div>
-                    <h3>Proficient</h3>
-                    <ul>
-                        <li>Java, C, C++, Python, JavaScript, TypeScript</li>
-                        <li>HTML, CSS</li>
-                        <li>ReactJS, React Native</li>
-                        <li>Object-Oriented Programming</li>
-                        <li>Git, GitHub</li>
-                        <li>Unix (Bash)</li>
-                        <li>Agile</li>
-                    </ul>
+                    <details>
+                        <summary>Proficient</summary>
+                        <ul>
+                            <li>Java, C, C++, Python, JavaScript, TypeScript</li>
+                            <li>HTML, CSS</li>
+                            <li>ReactJS, React Native</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Git, GitHub</li>
+                            <li>Unix (Bash)</li>
+                            <li>Agile</li>
+                        </ul>
+                    </details>
                 </div>
                 <div>
-                    <h3>Familiar</h3>
-                    <ul>
-                        <li>macOS, Windows, Linux</li>
-                        <li>Node.js, Express</li>
-                        <li>Assembly (ARM)</li>
-                        <li>Swift</li>
-                        <li>MongoDB</li>
-                        <li>Socket.io</li>
-                        <li>JUnit Testing Framework</li>
-                    </ul>
+                    <details>
+                        <summary>Familiar</summary>
+                        <ul>
+                            <li>macOS, Windows, Linux</li>
+                            <li>Node.js, Express</li>
+                            <li>Assembly (ARM)</li>
+                            <li>Swift</li>
+                            <li>MongoDB</li>
+                            <li>Socket.io</li>
+                            <li>JUnit Testing Framework</li>
+                        </ul>
+                    </details>
                 </div>
             </section>
             <hr>
@@ -214,10 +218,12 @@
         </main>
         <footer>
             <figure>
-                <!--<img src="images/ucsd_cse_bear.jpg" alt="Bear" width="480" height="270">
-                <figcaption>Bear at UCSD CSE</figcaption>-->
                 <img src="images/ucsd_jacobs_logo.png" alt="Logo" width="342.75" height="80.25">
                 <figcaption>University of California, San Diego - Jacobs School of Engineering</figcaption>
+                <template>
+                    <img src="images/ucsd_cse_bear.jpg" alt="Bear" width="480" height="270">
+                    <figcaption>Bear at UCSD CSE</figcaption>
+                </template>
             </figure>
         </footer>
     </body>
