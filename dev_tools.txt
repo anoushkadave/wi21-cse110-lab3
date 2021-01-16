@@ -1,3 +1,7 @@
+Link to GitHub Repository from Part 1: https://github.com/anoushkadave/cse110-lab2
+Link to published GitHub User Page from Part 1: https://anoushkadave.github.io/cse110-lab2/
+
+Passphrases from Part 2 (Scavenger Hunt)
 1. greenEggsAndHam
 2. iHateCplusplus
 3. HTMLRocks
