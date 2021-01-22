@@ -10,7 +10,7 @@
 ### What are your blockers?
 *[INSERT BULLETED LIST]*
 
-### What will you work on for the next week?
+### What will you work on next week?
 *[INSERT BULLETED LIST]*
 
 ### How close are we to hitting our sprint goals?
