@@ -13,7 +13,4 @@ assignees: anoushkadave
 ## CSS Properties Needed to Completed
 *[INSERT AS BULLETED LIST HERE]*
 
-## Was this Inline, Internal, or External CSS?
-*[INSERT HERE]*
-
 ## **Goal of Task**
