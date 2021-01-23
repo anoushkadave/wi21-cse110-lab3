@@ -1,5 +1,6 @@
 # Standup Notes Template
-*[INSERT DATE]*
+*[INSERT DATE & TIME]*
+
 *for weekly project team meeting*
 
 ## Teammate Name
@@ -18,6 +19,8 @@
 *[INSERT]*
 
 # Standup Notes Template
+*[INSERT DATE & TIME]*
+
 *for daily project team meeting*
 
 ## Teammate Name
