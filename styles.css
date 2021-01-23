@@ -45,6 +45,8 @@ td {
 
 picture {
     display: inline-block;
+    min-width: 15%;
+    max-width: 80%;
 }
 
 label {
