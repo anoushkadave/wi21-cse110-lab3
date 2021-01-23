@@ -41,6 +41,10 @@ td {
     color: #9C225D;
 }
 
+picture {
+    display: inline-block;
+}
+
 /* Selectors - Class Selector */
 
 .pink-text-color {
