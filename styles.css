@@ -96,6 +96,7 @@ h4.subtitle {
     display: grid;
     grid-template-columns: 10em 10em;
     grid-template-rows: auto auto auto auto;
+    grid-template-areas: none;
     position: sticky;
     padding-left: 2em;
 }
@@ -120,6 +121,7 @@ h4.subtitle {
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
+    flex-flow: column wrap;
 }
 
 .link:hover {
