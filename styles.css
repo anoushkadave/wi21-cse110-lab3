@@ -1,0 +1,51 @@
+/* Selectors - Element Selector */
+
+h2 {
+    color: rgb(219,112,147);
+}
+
+h3 {
+    color: rgb(202, 116, 129);
+}
+
+h4 {
+    color: rgba(202, 116, 129, 1.0);
+}
+
+p {
+    color: #F4A;
+}
+
+blockquote {
+    color: #FFC0CB;
+}
+
+li {
+    color:hsla(327, 100%, 63%, 1.0);
+}
+
+caption {
+    color: mediumvioletred;
+}
+
+th {
+    color: #F4A;
+}
+
+td {
+    color: #9C225D;
+}
+
+/* Selectors - Class Selector */
+
+.pink-text-color {
+    color: #F4A;
+}
+
+.medium-pink-text-color {
+    color: mediumvioletred;
+}
+
+.dark-pink-text-color {
+    color: #9C225D;
+}
