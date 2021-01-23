@@ -1,6 +1,10 @@
+/* Selectors - Universal Selector */
+* {
+    background-color:rgb(188, 212, 233);
+}
+
 /* Selectors - Element Selector */
 h1 {
-    color: mediumvioletred;
     text-align: center;
     text-decoration: underline;
     margin: auto;
@@ -11,19 +15,25 @@ h2 {
     color: rgb(219,112,147);
 }
 
-h3 {
-    color: rgb(202, 116, 129);
-}
-
-h4 {
-    color: rgba(202, 116, 129, 1.0);
-}
-
 p {
     color: #F4A;
 }
 
-blockquote {
+/* Selectors - Combinators - Adjacent Sibling Combinator */
+p + audio {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 0.2;
+}
+
+/* Selectors - Combinators - General Sibling Combinator  */
+label ~ input {
+    background-color: powderblue;
+}
+
+/* Selectors - Combinators - Descendant Combinator */
+div blockquote {
     color: #771021;
 }
 
@@ -31,11 +41,13 @@ li {
     color:hsla(327, 100%, 63%, 1.0);
 }
 
-caption {
+/* Selectors - Grouping Selectors - Selector List */
+h1, caption {
     color: mediumvioletred;
 }
 
-th {
+/* Selectors - Combinators - Child Combinator */
+tr > th {
     color: #F4A;
 }
 
@@ -55,6 +67,15 @@ label {
 }
 
 /* Selectors - Class Selector */
+
+.title {
+    color: rgb(202, 116, 129);
+}
+
+/* Selectors - Combinators - Combining Two Selectors */
+h4.subtitle {
+    color: rgba(202, 116, 129, 1.0);
+}
 
 .pink-text {
     color: #F4A;
@@ -101,6 +122,14 @@ label {
     flex-wrap: wrap;
 }
 
+.link:hover {
+    color: gray;
+}
+
+.link:active {
+    color: burlywood;
+}
+
 /* Selectors - ID Selector */
 
 #anoushka-image {
@@ -137,18 +166,22 @@ label {
     width: 26em;
 }
 
-/* Selectors - Universal Selector */
-
 /* Selectors - Attribute Selector */
+
+a[target="_blank"] {
+    color: purple;
+}
 
 /* Selectors - Pseudo-class Selector */
 
-.link:hover {
-    color: gray;
+h2::first-letter {
+    color:rgb(128, 39, 88);
 }
 
-.link:active {
-    color: burlywood;
+h3::first-letter {
+    color:rgb(128, 39, 88);
 }
 
-/* Selectors - Grouping/Combinators Selector */
+h4::first-letter {
+    color:rgb(128, 39, 88);
+}

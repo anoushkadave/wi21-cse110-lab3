@@ -17,9 +17,9 @@
         <!--Internal Styles-->
         <style>
             body {
-                background-color:rgb(188, 212, 233);
                 font-family: 'Roboto', sans-serif;
             }
+
             @media only screen and (max-width: 1000px) {
                 .bear-image {
                     display: none;
@@ -66,7 +66,9 @@
                 </aside>
 
                 <p><strong>My favorite inspirational <em>quote</em> is:</strong></p>
-                <blockquote>"You never lose, you either win or you learn."</blockquote>
+                <div>
+                    <blockquote>"You never lose, you either win or you learn."</blockquote>
+                </div>
 
                 <p>I would love to connect and share my full resume with you! 
                     To get to know me better, visit my <span><a class="link" href="https://www.linkedin.com/in/anoushka-dave/" target="_blank">LinkedIn</a></span> or <span><a class="link" href="mailto:adave@ucsd.edu" target="_blank">email me</a></span>! 
@@ -90,8 +92,8 @@
             <section id="education">
                 <h2>Education</h2>
                 <div>
-                    <h3>Bachelor's of Science, Computer Science</h3>
-                    <h4>Minor in Theatre</h4>
+                    <h3 class="title">Bachelor's of Science, Computer Science</h3>
+                    <h4 class="subtitle">Minor in Theatre</h4>
                     <div>
                         <!--Inline Style Example-->
                         <b><i style="color:hsl(350, 76%, 26%)">University of California, San Diego, GPA: 4.00</i></b>
@@ -237,7 +239,7 @@
                 </div>
                 <br>
                 <div>
-                    <h3>High School Diploma</h3>
+                    <h3 class="title">High School Diploma</h3>
                     <div>
                         <!--Inline Style Example-->
                         <b><i style="color:hsl(350, 76%, 26%)">University Preparatory Academy, GPA: 4.00</i></b><br>
@@ -367,7 +369,7 @@
             <br>
             <hr>
             <!--Fun Questions-->
-            <h3>Here are some fun questions for you!</h3>
+            <h3 class="title">Here are some fun questions for you!</h3>
             <label class="pink-text" for="myWebsite">What is your favorite part of my personal website?</label>
             <input list="website-choices" id="myWebsite" name="myWebsite" />
             <datalist id="website-choices">
