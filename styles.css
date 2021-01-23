@@ -3,6 +3,7 @@ h1 {
     color: mediumvioletred;
     text-align: center;
     text-decoration: underline;
+    margin: auto;
 }
 
 h2 {
@@ -45,6 +46,11 @@ picture {
     display: inline-block;
 }
 
+label {
+    padding-left: 0.5em;
+    padding-right: 0.1em;
+}
+
 /* Selectors - Class Selector */
 
 .pink-text {
@@ -66,6 +72,7 @@ picture {
     display: grid;
     grid-template-columns: 10em 10em;
     grid-template-rows: auto auto auto auto;
+    padding-left: 2em;
 }
 
 .cell {
@@ -75,11 +82,21 @@ picture {
     border-color: #9C225D;
     border-width: 0.1rem;
     border-radius: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.image-pad {
+    padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 /* Selectors - ID Selector */
 
 #anoushka-image {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 51em;
+    margin-right: 25em;
     border-style: dotted;
     border-color: rgb(128, 39, 88);
     border-width: 1vh;
@@ -98,6 +115,15 @@ picture {
     border-color: black;
     border-width: 0.2em;
     border-radius: 1;
+}
+
+#press-me {
+    margin: 2em 2em 2em 2em;
+}
+
+#puppy-video {
+    height: 15em;
+    width: 26em;
 }
 
 /* Selectors - Universal Selector */
