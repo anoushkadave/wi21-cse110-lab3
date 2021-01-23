@@ -62,6 +62,20 @@ picture {
     font-size: 16pt;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 10em 10em;
+    grid-template-rows: auto auto auto auto;
+}
+
+.cell {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    border-radius: 1;
+}
+
 /* Selectors - ID Selector */
 
 #anoushka-image {
