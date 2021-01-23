@@ -94,6 +94,13 @@ label {
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
+.flexbox {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 /* Selectors - ID Selector */
 
 #anoushka-image {
