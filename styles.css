@@ -69,9 +69,10 @@ picture {
 }
 
 .cell {
+    color: mediumvioletred;
     text-align: center;
     border-style: solid;
-    border-color: black;
+    border-color: #9C225D;
     border-width: 0.1rem;
     border-radius: 1;
 }
@@ -81,7 +82,7 @@ picture {
 #anoushka-image {
     border-style: dotted;
     border-color: rgb(128, 39, 88);
-    border-width: 0.2em;
+    border-width: 1vh;
     border-radius: 1;
 }
 
