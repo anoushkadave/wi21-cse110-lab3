@@ -1,4 +1,10 @@
 /* Selectors - Element Selector */
+h1 {
+    color: mediumvioletred;
+    text-align: center;
+    text-decoration: underline;
+}
+
 h2 {
     color: rgb(219,112,147);
 }
