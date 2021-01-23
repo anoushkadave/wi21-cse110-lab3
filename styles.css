@@ -59,6 +59,14 @@ picture {
     color: #9C225D;
 }
 
+.link:hover {
+    color: gray;
+}
+
+.link:active {
+    color: burlywood;
+}
+
 /* Selectors - ID Selector */
 
 #anoushka-image {
