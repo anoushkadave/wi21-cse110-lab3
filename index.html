@@ -8,7 +8,7 @@
         <link href="https://github.com/anoushkadave" rel="author">
 
         <!--External Style Sheet-->
-        <link href="./styles.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
 
         <!--Internal Styles-->
         <style>
@@ -18,8 +18,8 @@
     <body>
         <!--Introduction-->
         <header>
-            <!--Inline Styles-->
-            <h1>Anoushka Dave</h1>
+            <!--Inline Style Example-->
+            <h1 style="color:mediumvioletred">Anoushka Dave</h1>
 
             <picture>
                 <img src="images/Anoushka_Dave.jpg" alt="" width="250" height="250"/>
@@ -82,8 +82,11 @@
                     <h3>Bachelor's of Science, Computer Science</h3>
                     <h4>Minor in Theatre</h4>
                     <div>
-                        <b><i>University of California, San Diego</i>, GPA: 4.00</b><br>
-                        <i>September 2019 - Anticipated June 2023</i>
+                        <b><i style="color:hsl(350, 100%, 87.6%)">University of California, San Diego, GPA: 4.00</i></b>
+                        <br>
+                        <i style="color:hsl(350, 100%, 87.6%)">September 2019 - Anticipated June 2023</i>
+                    </div>
+                    <div>
                         <ul>
                             <li>Provost Honors Recipient (Fall 2019, Winter 2020, Spring 2020, Fall 2020)</li>
                             <li>Thurgood Marshall College Honors Student</li>
@@ -224,8 +227,8 @@
                 <div>
                     <h3>High School Diploma</h3>
                     <div>
-                        <b><i>University Preparatory Academy</i>, GPA: 4.00</b><br>
-                        <i>August 2015 - June 2019</i>
+                        <b><i style="color:hsl(350, 100%, 87.6%)">University Preparatory Academy, GPA: 4.00</i></b><br>
+                        <i style="color:hsl(350, 100%, 87.6%)">August 2015 - June 2019</i>
                         <ul>
                             <li>9 Advanced Placement Courses</li>
                         </ul>
@@ -239,7 +242,7 @@
 
                 <div>
                     <details>
-                        <summary>Proficient</summary>
+                        <summary class="dark-pink-text-color">Proficient</summary>
                         <ul>
                             <li>Java, C, C++, Python, JavaScript, TypeScript</li>
                             <li>HTML, CSS</li>
@@ -253,7 +256,7 @@
                 </div>
                 <div>
                     <details>
-                        <summary>Familiar</summary>
+                        <summary class="dark-pink-text-color">Familiar</summary>
                         <ul>
                             <li>macOS, Windows, Linux</li>
                             <li>Node.js, Express</li>
@@ -283,19 +286,19 @@
             <!--Contact Me-->
             <h2 id="contact-me">Contact me here!</h2>
             <form>
-                <label>Enter your name: </label>
+                <label class="pink-text-color">Enter your name: </label>
                 <input type="text">
                 <br>
-                <label>What is the date today?</label>
+                <label class="pink-text-color">What is the date today?</label>
                 <input type="date">
                 <br>
-                <label>Enter your email address: </label>
+                <label class="pink-text-color">Enter your email address: </label>
                 <input type="email">
                 <br>
-                <label>Enter your phone number: </label>
+                <label class="pink-text-color">Enter your phone number: </label>
                 <input type="text">
                 <br>
-                <label>What is the best way to reach you?</label>
+                <label class="pink-text-color">What is the best way to reach you?</label>
                 <select>
                     <optgroup label="Contact-Form">
                         <option>Email</option>
@@ -303,25 +306,25 @@
                     </optgroup>
                 </select>
                 <br>
-                <label>How many days of notice should I provide before contacting you?</label>
+                <label class="pink-text-color">How many days of notice should I provide before contacting you?</label>
                 <input type="number">
                 <br>
                 <fieldset>
-                    <legend>Choose your profession:</legend>
+                    <legend class="pink-text-color">Choose your profession:</legend>
                     <input type="radio">
-                    <label>Student</label><br/>
+                    <label class="pink-text-color">Student</label><br/>
                     <input type="radio">
-                    <label>UCSD Faculty</label><br/>
+                    <label class="pink-text-color">UCSD Faculty</label><br/>
                     <input type="radio">
-                    <label>Recruiter</label><br/>
+                    <label class="pink-text-color">Recruiter</label><br/>
                     <input type="radio">
-                    <label>Other</label><br/>
+                    <label class="pink-text-color">Other</label><br/>
                 </fieldset>
                 <br>
-                <label>Please provide any other information I need: </label>
+                <labe class="pink-text-color"l>Please provide any other information I need: </label>
                 <input type="file">
                 <br>
-                <textarea>Leave me a personalized note here!</textarea>
+                <textarea class="medium-pink-text-color">Leave me a personalized note here!</textarea>
                 <br>
                 <br>
                 <input type="reset" value="Reset your information">
@@ -331,7 +334,7 @@
             <hr>
             <!--Fun Questions-->
             <h3>Here are some fun questions for you!</h3>
-            <label for="myWebsite">What is your favorite part of my personal website?</label>
+            <label class="pink-text-color" for="myWebsite">What is your favorite part of my personal website?</label>
             <input list="website-choices" id="myWebsite" name="myWebsite" />
             <datalist id="website-choices">
             <option value="Introduction">
@@ -341,13 +344,13 @@
             <option value="Pictures">
             </datalist>
             <br>
-            <label>What is your favorite color?</label>
+            <label class="pink-text-color">What is your favorite color?</label>
             <input type="color">
             <br>
-            <label>How excited are you to get to know me?</label>
+            <label class="pink-text-color">How excited are you to get to know me?</label>
             <input type="range">
             <br>
-            <label>Share your personal website with me!</label>
+            <label class="pink-text-color">Share your personal website with me!</label>
             <input type="url">
             <br>
             <p>Thanks for visiting my website! This is how I feel about you being here: </p>
@@ -362,11 +365,11 @@
         <footer>
             <figure>
                 <img src="images/ucsd_jacobs_logo.png" alt="Logo" width="342" height="80">
-                <figcaption>University of California, San Diego - Jacobs School of Engineering</figcaption>
+                <figcaption class="dark-pink-text-color">University of California, San Diego - Jacobs School of Engineering</figcaption>
             </figure>
             <figure>
                 <img src="images/ucsd_cse_bear.jpg" alt="Bear" width="480" height="270">
-                <figcaption>Bear at UCSD CSE</figcaption>
+                <figcaption class="dark-pink-text-color">Bear at UCSD CSE</figcaption>
             </figure>
         </footer>
     </body>
