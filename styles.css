@@ -47,16 +47,19 @@ picture {
 
 /* Selectors - Class Selector */
 
-.pink-text-color {
+.pink-text {
     color: #F4A;
+    font-size: 16px;
 }
 
-.medium-pink-text-color {
+.medium-pink-text {
     color: mediumvioletred;
+    font-size: 0.75pc;
 }
 
-.dark-pink-text-color {
+.dark-pink-text {
     color: #9C225D;
+    font-size: 16pt;
 }
 
 /* Selectors - ID Selector */
