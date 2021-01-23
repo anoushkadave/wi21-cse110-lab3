@@ -4,6 +4,7 @@ h1 {
     text-align: center;
     text-decoration: underline;
     margin: auto;
+    position: relative;
 }
 
 h2 {
@@ -72,6 +73,7 @@ label {
     display: grid;
     grid-template-columns: 10em 10em;
     grid-template-rows: auto auto auto auto;
+    position: sticky;
     padding-left: 2em;
 }
 
