@@ -48,3 +48,26 @@ td {
 .dark-pink-text-color {
     color: #9C225D;
 }
+
+/* Selectors - ID Selector */
+
+#anoushka-image {
+    border-style: dotted;
+    border-color: rgb(128, 39, 88);
+    border-width: 0.2em;
+    border-radius: 1;
+}
+
+#ucsd-map {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2em;
+    border-radius: 1;
+}
+
+#ucsd-cse {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2em;
+    border-radius: 1;
+}
